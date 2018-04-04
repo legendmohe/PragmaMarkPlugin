@@ -1,33 +1,20 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+    <id>com.legendmohe.plugin.pargmamark</id>
+    <name>PargmaMarkPlugin</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="legendmohe@foxmail.com" url="http://legendmohe.net">legendmohe</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      Bring Pargma-Mark to Intellij IDEA!<br>
+      <em>src: https://github.com/legendmohe/PargmaMarkPlugin</em>
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      1.0 - init commit
     ]]>
   </change-notes>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="173.0"/>
-
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-       on how to target different products -->
-  <!-- uncomment to enable plugin in all products
-  <depends>com.intellij.modules.lang</depends>
-  -->
-
-  <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
-  </extensions>
-
+    <idea-version since-build="162.0"/>
   <actions>
       <group id="LineDesc.GotoPargmaMark">
           <action id="GotoPargmaMark" class="com.legendmohe.pargmamark.GotoPargmaMarkAction"/>

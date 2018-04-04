@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LineDesc.iml" filepath="$PROJECT_DIR$/LineDesc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PargmaMarkPlugin.iml" filepath="$PROJECT_DIR$/PargmaMarkPlugin.iml" />
     </modules>
   </component>
 </project>
