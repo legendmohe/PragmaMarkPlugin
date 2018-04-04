@@ -15,7 +15,9 @@ import com.intellij.openapi.util.TextRange;
 import com.intellij.openapi.util.UnfairTextRange;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
 public class GotoPargmaMarkAction extends AnAction implements DumbAware, PopupAction {
 
@@ -61,7 +63,10 @@ public class GotoPargmaMarkAction extends AnAction implements DumbAware, PopupAc
             );
             String lineContent = document.getText(textRange).trim();
             if (lineContent.startsWith(PARGMA_MARK_PREFIX)) {
-                descDataList.add(createPargmaMarkData(lineContent, curLine));
+                PargmaMarkData data = createPargmaMarkData(lineContent, curLine);
+                if (data != null) {
+                    descDataList.add(data);
+                }
             }
         }
         return descDataList;
@@ -70,10 +75,13 @@ public class GotoPargmaMarkAction extends AnAction implements DumbAware, PopupAc
     private static PargmaMarkData createPargmaMarkData(String lineContent, int curLine) {
         // 将/替换成空格再trim即可实现提取中间部分，但要注意中间部分里面的/也会被替换掉
         String title = lineContent.replace('/', ' ').trim();
-        PargmaMarkData newData = new PargmaMarkData();
-        newData.title = title;
-        newData.lineNum = curLine;
-        return newData;
+        if (title.length() > 0) {
+            PargmaMarkData newData = new PargmaMarkData();
+            newData.title = title;
+            newData.lineNum = curLine;
+            return newData;
+        }
+        return null;
     }
 
     private static void notifyCustomRegionsUnavailable(@NotNull Editor editor, @NotNull Project project) {
