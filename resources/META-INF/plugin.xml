@@ -5,8 +5,9 @@
     <vendor email="legendmohe@foxmail.com" url="http://legendmohe.net">legendmohe</vendor>
 
   <description><![CDATA[
-      Bring Pargma-Mark to Intellij IDEA!<br>
-      <em>src: https://github.com/legendmohe/PargmaMarkPlugin</em>
+        Bring Pargma-Mark to Intellij IDEA!<br><br>
+        github: <br>
+        <a href=https://github.com/legendmohe/PargmaMarkPlugin>PargmaMarkPlugin</a>
     ]]></description>
 
   <change-notes><![CDATA[
