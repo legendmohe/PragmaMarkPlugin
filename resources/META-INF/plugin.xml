@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.legendmohe.plugin.pargmamark</id>
     <name>PargmaMarkPlugin</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <vendor email="legendmohe@foxmail.com" url="http://legendmohe.net">legendmohe</vendor>
 
   <description><![CDATA[
