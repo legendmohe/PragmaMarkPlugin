@@ -6,7 +6,14 @@
 
   <description><![CDATA[
         Bring Pargma-Mark to Intellij IDEA!<br><br>
-        Default keymap is <em>Ctrl + Alt + Comma</em><br><br>
+
+        1. Mark your code with one single line start with more than 8 "/". For example:<br><br>
+
+            ///////////////// Interface implement //////////////<br>
+            your code your code<br><br>
+
+        2. Press Ctrl + Alt + Comma (Or Ctrl + Cmd + Comma in Mac). Please check Keymap in Settings if the PargmaMark list window didn't pop up.<br><br>
+
         github: <br>
         <a href=https://github.com/legendmohe/PargmaMarkPlugin>PargmaMarkPlugin</a>
     ]]></description>
@@ -20,7 +27,9 @@
   <actions>
       <group id="LineDesc.GotoPargmaMark">
           <action id="GotoPargmaMark" class="com.legendmohe.pargmamark.GotoPargmaMarkAction">
-              <keyboard-shortcut first-keystroke="control alt comma" second-keystroke="C" keymap="$default"/>
+              <keyboard-shortcut first-keystroke="control alt comma" keymap="$default"/>
+              <keyboard-shortcut first-keystroke="control alt comma" keymap="Mac OS X 10.5+"/>
+              <keyboard-shortcut first-keystroke="control alt comma" keymap="Mac OS X"/>
           </action>
 
           <add-to-group group-id="GoToMenu" anchor="first"/>
