@@ -1,4 +1,4 @@
-package com.legendmohe.pargmamark;/*
+package com.legendmohe.pragmamark;/*
  * Copyright 2000-2017 JetBrains s.r.o.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -31,7 +31,7 @@ import java.util.Collection;
 /**
  * @author Rustam Vishnyakov
  */
-public class PargmaMarkListPopup {
+public class PragmaMarkListPopup {
     private final @NotNull
     JBList<MyFoldingDescriptorWrapper> myRegionsList;
     private final @NotNull
@@ -39,7 +39,7 @@ public class PargmaMarkListPopup {
     private final @NotNull
     Editor myEditor;
 
-    PargmaMarkListPopup(@NotNull Collection<PargmaMarkData> descriptors,
+    PragmaMarkListPopup(@NotNull Collection<PragmaMarkData> descriptors,
                         @NotNull final Editor editor,
                         @NotNull final Project project) {
         myEditor = editor;
@@ -53,9 +53,9 @@ public class PargmaMarkListPopup {
                 .setResizable(false)
                 .setMovable(false)
                 .setItemChoosenCallback(() -> {
-                    PargmaMarkData pargmaMarkData = getNavigationElement();
-                    if (pargmaMarkData != null) {
-                        navigateTo(editor, pargmaMarkData);
+                    PragmaMarkData pragmaMarkData = getNavigationElement();
+                    if (pragmaMarkData != null) {
+                        navigateTo(editor, pragmaMarkData);
                         IdeDocumentHistory.getInstance(project).includeCurrentCommandAsNavigation();
                     }
                 }).createPopup();
@@ -66,35 +66,35 @@ public class PargmaMarkListPopup {
     }
 
     private static class MyListModel extends DefaultListModel<MyFoldingDescriptorWrapper> {
-        private MyListModel(Collection<PargmaMarkData> descriptors) {
-            for (PargmaMarkData pargmaMarkData : descriptors) {
-                super.addElement(new MyFoldingDescriptorWrapper(pargmaMarkData));
+        private MyListModel(Collection<PragmaMarkData> descriptors) {
+            for (PragmaMarkData pragmaMarkData : descriptors) {
+                super.addElement(new MyFoldingDescriptorWrapper(pragmaMarkData));
             }
         }
     }
 
     private static class MyFoldingDescriptorWrapper {
         private final @NotNull
-        PargmaMarkData pargmaMarkData;
+        PragmaMarkData pragmaMarkData;
 
-        private MyFoldingDescriptorWrapper(@NotNull PargmaMarkData descriptor) {
-            pargmaMarkData = descriptor;
+        private MyFoldingDescriptorWrapper(@NotNull PragmaMarkData descriptor) {
+            pragmaMarkData = descriptor;
         }
 
         @NotNull
-        public PargmaMarkData getDescriptor() {
-            return pargmaMarkData;
+        public PragmaMarkData getDescriptor() {
+            return pragmaMarkData;
         }
 
         @Nullable
         @Override
         public String toString() {
-            return " - " + pargmaMarkData.title;
+            return " - " + pragmaMarkData.title;
         }
     }
 
     @Nullable
-    public PargmaMarkData getNavigationElement() {
+    public PragmaMarkData getNavigationElement() {
         Object selection = myRegionsList.getSelectedValue();
         if (selection != null) {
             return ((MyFoldingDescriptorWrapper) selection).getDescriptor();
@@ -102,7 +102,7 @@ public class PargmaMarkListPopup {
         return null;
     }
 
-    private static void navigateTo(@NotNull Editor editor, PargmaMarkData element) {
+    private static void navigateTo(@NotNull Editor editor, PragmaMarkData element) {
         int lineNum = element.lineNum;
         int offset = editor.getDocument().getLineStartOffset(lineNum);
         if (offset >= 0 && offset < editor.getDocument().getTextLength()) {

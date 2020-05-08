@@ -1,4 +1,4 @@
-package com.legendmohe.pargmamark;
+package com.legendmohe.pragmamark;
 
 import com.intellij.openapi.actionSystem.*;
 import com.intellij.openapi.command.CommandProcessor;
@@ -19,9 +19,9 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class GotoPargmaMarkAction extends AnAction implements DumbAware, PopupAction {
+public class GotoPragmaMarkAction extends AnAction implements DumbAware, PopupAction {
 
-    public static final String PARGMA_MARK_PREFIX = "////////";
+    public static final String PRAGMA_MARK_PREFIX = "////////";
 
     @Override
     public void actionPerformed(AnActionEvent e) {
@@ -39,22 +39,22 @@ public class GotoPargmaMarkAction extends AnAction implements DumbAware, PopupAc
             processor.executeCommand(
                     project,
                     () -> {
-                        Collection<PargmaMarkData> pargmaMarks = getCustomFoldingDescriptors(editor, project);
-                        if (pargmaMarks.size() > 0) {
-                            PargmaMarkListPopup regionsPopup = new PargmaMarkListPopup(pargmaMarks, editor, project);
+                        Collection<PragmaMarkData> pragmaMarks = getCustomFoldingDescriptors(editor, project);
+                        if (pragmaMarks.size() > 0) {
+                            PragmaMarkListPopup regionsPopup = new PragmaMarkListPopup(pragmaMarks, editor, project);
                             regionsPopup.show();
                         } else {
                             notifyCustomRegionsUnavailable(editor, project);
                         }
                     },
-                    "goto pargma marks",
+                    "goto pragma marks",
                     null);
         }
     }
 
     @NotNull
-    private static Collection<PargmaMarkData> getCustomFoldingDescriptors(@NotNull Editor editor, @NotNull Project project) {
-        List<PargmaMarkData> descDataList = new ArrayList<>();
+    private static Collection<PragmaMarkData> getCustomFoldingDescriptors(@NotNull Editor editor, @NotNull Project project) {
+        List<PragmaMarkData> descDataList = new ArrayList<>();
         final Document document = editor.getDocument();
         for (int curLine = 0; curLine < document.getLineCount(); curLine++) {
             TextRange textRange = new UnfairTextRange(
@@ -62,8 +62,8 @@ public class GotoPargmaMarkAction extends AnAction implements DumbAware, PopupAc
                     document.getLineEndOffset(curLine)
             );
             String lineContent = document.getText(textRange).trim();
-            if (lineContent.startsWith(PARGMA_MARK_PREFIX)) {
-                PargmaMarkData data = createPargmaMarkData(lineContent, curLine);
+            if (lineContent.startsWith(PRAGMA_MARK_PREFIX)) {
+                PragmaMarkData data = createPragmaMarkData(lineContent, curLine);
                 if (data != null) {
                     descDataList.add(data);
                 }
@@ -72,11 +72,11 @@ public class GotoPargmaMarkAction extends AnAction implements DumbAware, PopupAc
         return descDataList;
     }
 
-    private static PargmaMarkData createPargmaMarkData(String lineContent, int curLine) {
+    private static PragmaMarkData createPragmaMarkData(String lineContent, int curLine) {
         // 将/替换成空格再trim即可实现提取中间部分，但要注意中间部分里面的/也会被替换掉
         String title = lineContent.replace('/', ' ').trim();
         if (title.length() > 0) {
-            PargmaMarkData newData = new PargmaMarkData();
+            PragmaMarkData newData = new PragmaMarkData();
             newData.title = title;
             newData.lineNum = curLine;
             return newData;

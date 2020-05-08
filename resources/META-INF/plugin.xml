@@ -26,7 +26,7 @@
     <idea-version since-build="162.0"/>
   <actions>
       <group id="LineDesc.GotoPargmaMark">
-          <action id="GotoPargmaMark" class="com.legendmohe.pargmamark.GotoPargmaMarkAction">
+          <action id="GotoPargmaMark" class="com.legendmohe.pragmamark.GotoPragmaMarkAction">
               <keyboard-shortcut first-keystroke="control alt comma" keymap="$default"/>
               <keyboard-shortcut first-keystroke="control alt comma" keymap="Mac OS X 10.5+"/>
               <keyboard-shortcut first-keystroke="control alt comma" keymap="Mac OS X"/>

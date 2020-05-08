@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f81fa1c-a7d1-4746-b963-b26cfa03ecc6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PargmaMarkPlugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PragmaMarkPlugin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/legendmohe/pargmamark/GotoPargmaMarkAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/legendmohe/pragmamark/GotoPragmaMarkAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/legendmohe/pargmamark/PargmaMarkData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/legendmohe/pragmamark/PragmaMarkData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/legendmohe/pargmamark/PargmaMarkListPopup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/legendmohe/pragmamark/PragmaMarkListPopup.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bbXOazVDCJTNW4PwV1K2SbB7a7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="PragmaMarkPlugin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="PragmaMarkPlugin" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="PragmaMarkPlugin" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="PragmaMarkPlugin" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <alternative-path path="1.8" alternative-path-enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f81fa1c-a7d1-4746-b963-b26cfa03ecc6" name="Default Changelist" comment="" />
+      <created>1588901736205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588901736205</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="250" y="0" key="#Project_Structure" timestamp="1588902683819">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="250" y="0" key="#Project_Structure/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588902683819" />
+    <state x="225" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588903502511">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="225" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588903502511" />
+    <state x="169" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588902975654">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="169" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588902975654" />
+    <state x="94" y="94" width="1349" height="646" key="DiffContextDialog" timestamp="1588903764160">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="94" y="94" width="1349" height="646" key="DiffContextDialog/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588903764160" />
+    <state x="451" y="159" key="FileChooserDialogImpl" timestamp="1588902674307">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="451" y="159" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588902674307" />
+    <state width="1493" height="447" key="GridCell.Tab.0.bottom" timestamp="1588903650291">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="447" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588903650291" />
+    <state width="1493" height="447" key="GridCell.Tab.0.center" timestamp="1588903650291">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="447" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588903650291" />
+    <state width="1493" height="447" key="GridCell.Tab.0.left" timestamp="1588903650290">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="447" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588903650290" />
+    <state width="1493" height="447" key="GridCell.Tab.0.right" timestamp="1588903650291">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="447" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588903650291" />
+    <state width="1493" height="256" key="GridCell.Tab.1.bottom" timestamp="1588903505774">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="256" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588903505774" />
+    <state width="1493" height="256" key="GridCell.Tab.1.center" timestamp="1588903505773">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="256" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588903505773" />
+    <state width="1493" height="256" key="GridCell.Tab.1.left" timestamp="1588903505773">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="256" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588903505773" />
+    <state width="1493" height="256" key="GridCell.Tab.1.right" timestamp="1588903505773">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="256" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588903505773" />
+    <state x="271" y="62" key="SettingsEditor" timestamp="1588903183887">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="271" y="62" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588903183887" />
+    <state x="473" y="309" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588902229943">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="473" y="309" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588902229943" />
+    <state x="469" y="149" width="598" height="536" key="find.popup" timestamp="1588903095521">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="469" y="149" width="598" height="536" key="find.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588903095521" />
+    <state x="151" y="101" key="new project wizard" timestamp="1588903646983">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="151" y="101" key="new project wizard/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1588903646983" />
+  </component>
+</project>
