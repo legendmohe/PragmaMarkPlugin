@@ -1,0 +1,39 @@
+<idea-plugin>
+    <id>com.legendmohe.plugin.pragmamark</id>
+    <name>PragmaMarkPlugin</name>
+    <version>1.0.2</version>
+    <vendor email="legendmohe@foxmail.com" url="http://legendmohe.com">legendmohe</vendor>
+
+    <description><![CDATA[
+        Bring Pragma-Mark to Intellij IDEA!<br><br>
+
+        1. Mark your code with one single line start with more than 8 "/". For example:<br><br>
+
+            ///////////////// Interface implement //////////////<br>
+            your code your code<br><br>
+
+        2. Press Ctrl + Alt + Comma (Or Ctrl + Cmd + Comma in Mac). Please check Keymap in Settings if the PragmaMark list window didn't pop up.<br><br>
+
+        github: <br>
+        <a href=https://github.com/legendmohe/PragmaMarkPlugin>PragmaMarkPlugin</a>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      1.0 - init commit
+    ]]>
+    </change-notes>
+
+    <idea-version since-build="162.0"/>
+    <actions>
+        <group id="LineDesc.GotoPragmaMark">
+            <action id="GotoPragmaMark" class="com.legendmohe.pragmamark.GotoPragmaMarkAction">
+                <keyboard-shortcut first-keystroke="control alt comma" keymap="$default"/>
+                <keyboard-shortcut first-keystroke="control alt comma" keymap="Mac OS X 10.5+"/>
+                <keyboard-shortcut first-keystroke="control alt comma" keymap="Mac OS X"/>
+            </action>
+
+            <add-to-group group-id="GoToMenu" anchor="first"/>
+        </group>
+    </actions>
+
+</idea-plugin>
