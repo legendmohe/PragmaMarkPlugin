@@ -3,6 +3,7 @@
     <name>PragmaMarkPlugin</name>
     <version>1.0.2</version>
     <vendor email="legendmohe@foxmail.com" url="http://legendmohe.com">legendmohe</vendor>
+    <depends>com.intellij.modules.platform</depends>
 
     <description><![CDATA[
         Bring Pragma-Mark to Intellij IDEA!<br><br>
