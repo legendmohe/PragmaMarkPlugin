@@ -52,6 +52,8 @@ public class GotoPragmaMarkAction extends AnAction implements DumbAware, PopupAc
         }
     }
 
+    ///////////////////////////////////function///////////////////////////////////
+
     @NotNull
     private static Collection<PragmaMarkData> getCustomFoldingDescriptors(@NotNull Editor editor, @NotNull Project project) {
         List<PragmaMarkData> descDataList = new ArrayList<>();
@@ -71,6 +73,8 @@ public class GotoPragmaMarkAction extends AnAction implements DumbAware, PopupAc
         }
         return descDataList;
     }
+
+    ///////////////////////////////////public///////////////////////////////////
 
     private static PragmaMarkData createPragmaMarkData(String lineContent, int curLine) {
         // 将/替换成空格再trim即可实现提取中间部分，但要注意中间部分里面的/也会被替换掉

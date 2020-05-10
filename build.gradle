@@ -20,7 +20,7 @@ intellij {
     version '2020.1.1'
 }
 patchPluginXml {
-    sinceBuild "162.0"
+    sinceBuild "182.2371.4"
 //    changeNotes """
 //      Add change notes here.<br>
 //      <em>most HTML tags may be used</em>"""
