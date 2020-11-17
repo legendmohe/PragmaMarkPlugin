@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.legendmohe.plugin.pragmamark</id>
     <name>PragmaMarkPlugin</name>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <vendor email="legendmohe@foxmail.com" url="http://legendmohe.com">legendmohe</vendor>
     <depends>com.intellij.modules.platform</depends>
 
@@ -21,10 +21,11 @@
 
     <change-notes><![CDATA[
       1.0 - init commit
+      1.4 - support 2020.2+
     ]]>
     </change-notes>
 
-    <idea-version since-build="182.2371.4"/>
+    <idea-version since-build="182.*" until-build="203.*"/>
     <actions>
         <group id="LineDesc.GotoPragmaMark">
             <action id="GotoPragmaMark" class="com.legendmohe.pragmamark.GotoPragmaMarkAction">

@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.legendmohe.pragmamark'
-version '1.0.3'
+version '1.0.4'
 sourceCompatibility = 1.8
 
 repositories {
@@ -17,11 +17,9 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version '2020.1.1'
+    version '2020.2'
 }
 patchPluginXml {
-    sinceBuild "182.2371.4"
-//    changeNotes """
-//      Add change notes here.<br>
-//      <em>most HTML tags may be used</em>"""
+    sinceBuild "182.*"
+    untilBuild "203.*"
 }
