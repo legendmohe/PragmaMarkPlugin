@@ -4,8 +4,9 @@ plugins {
 }
 
 group 'com.legendmohe.pragmamark'
-version '1.0.4'
-sourceCompatibility = 1.8
+version '1.0.5'
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_11
 
 repositories {
     mavenCentral()
@@ -17,9 +18,10 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version '2020.2'
+    version '2021.1'
+    plugins = ['java']
 }
 patchPluginXml {
     sinceBuild "182.*"
-    untilBuild "203.*"
+    untilBuild "211.*"
 }

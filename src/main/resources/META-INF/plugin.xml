@@ -4,6 +4,7 @@
     <version>1.0.4</version>
     <vendor email="legendmohe@foxmail.com" url="http://legendmohe.com">legendmohe</vendor>
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
 
     <description><![CDATA[
         Bring Pragma-Mark to Intellij IDEA!<br><br>
@@ -21,11 +22,12 @@
 
     <change-notes><![CDATA[
       1.0 - init commit
-      1.4 - support 2020.2+
+      1.0.4 - support 2020.2+
+      1.0.5 - support 2021.1+
     ]]>
     </change-notes>
 
-    <idea-version since-build="182.*" until-build="203.*"/>
+    <idea-version since-build="182.*" until-build="211.*"/>
     <actions>
         <group id="LineDesc.GotoPragmaMark">
             <action id="GotoPragmaMark" class="com.legendmohe.pragmamark.GotoPragmaMarkAction">
